@@ -656,12 +656,16 @@ video {
   margin-top: 6rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .flex {
@@ -990,6 +994,11 @@ video {
   background-image: url("../images/bg-boost-desktop.svg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.ficon:hover {
+  filter: invert(79%) sepia(61%) saturate(464%) hue-rotate(130deg)
+    brightness(89%) constrast(85%);
 }
 
 .hover\:bg-cyanLight:hover {
